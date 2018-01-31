@@ -75,6 +75,7 @@
 			//E3.changeItemParam(node, "itemAddForm");
 		}});
 	});
+
 	//提交表单
 	function submitForm(){
 		//有效性验证

@@ -16,6 +16,7 @@
         <option value="$PROJECT_DIR$/e3-manager-dao/pom.xml" />
         <option value="$PROJECT_DIR$/e3-manager/pom.xml" />
         <option value="$PROJECT_DIR$/e3-common/pom.xml" />
+        <option value="$PROJECT_DIR$/fastdfs_client/pom.xml" />
       </list>
     </option>
   </component>
