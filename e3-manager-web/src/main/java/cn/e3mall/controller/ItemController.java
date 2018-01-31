@@ -43,7 +43,7 @@ public class ItemController {
 		return result;
 	}
 
-	@RequestMapping("/save")
+	@RequestMapping("/item/save")
 	@ResponseBody
 	public E3Result saveItem(TbItem item, String desc) {
 		E3Result result = itemService.addItem(item, desc);
