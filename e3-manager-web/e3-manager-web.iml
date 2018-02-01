@@ -25,7 +25,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="e3-manager-interface" />
+    <orderEntry type="library" name="Maven: cn.e3mall:e3-manager-interface:1.0-SNAPSHOT" level="project" />
     <orderEntry type="module" module-name="e3-manager-pojo" />
     <orderEntry type="module" module-name="e3-common" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.5" level="project" />
@@ -39,6 +39,7 @@
     <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.6" level="project" />
     <orderEntry type="library" name="Maven: org.quartz-scheduler:quartz:2.2.2" level="project" />
     <orderEntry type="library" name="Maven: c3p0:c3p0:0.9.1.1" level="project" />
+    <orderEntry type="module" module-name="e3-content-interface" />
     <orderEntry type="library" scope="TEST" name="Maven: junit:junit:3.8.1" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.2.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.2.4.RELEASE" level="project" />

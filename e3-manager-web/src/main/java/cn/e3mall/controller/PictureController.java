@@ -8,9 +8,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
-import sun.org.mozilla.javascript.internal.ast.TryStatement;
 
-import javax.servlet.jsp.tagext.TryCatchFinally;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -27,7 +25,7 @@ public class PictureController {
             String originalFilename = uploadFile.getOriginalFilename();
             String extName = originalFilename.substring(originalFilename.lastIndexOf(".") + 1);
             //创建一个FASTDFS的客户端
-            FastDFSClient fastDFSClient = new FastDFSClient("classpath:resource/client.conf");
+            FastDFSClient fastDFSClient = new FastDFSClient("classpath:conf/client.conf");
             //执行上传处理
             String path = fastDFSClient.uploadFile(uploadFile.getBytes(), extName);
             //拼接返回的url和ip地址，拼装成完整的url
